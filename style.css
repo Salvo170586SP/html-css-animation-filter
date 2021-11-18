@@ -8,7 +8,7 @@
   background-color: red;
   transition: background-color 2s;
 }
-
+/* FINE SOLUZIONE 1 */
 
 
 .ex-2-square {
@@ -21,7 +21,7 @@
   transition: 2s;
   width: 100%;
 }
-
+/* FINE SOLUZIONE 2 */
 
 
 
@@ -35,7 +35,7 @@
     transition:  1s;
     border-radius: 100%;
 }
-
+/* FINE SOLUZIONE 3 */
 
 .ex-4-square {
   width: 100px;
@@ -47,7 +47,7 @@
     transition:  1s;
     opacity: 0;
 }
-
+/* FINE SOLUZIONE 4 */
 
 
 .ex-5-square {
@@ -56,11 +56,24 @@
   height: 60px;
   background: red;
 }
+/* MIA SOLUZIONE 5 */
+.ex-5-square:hover{
+    transform: scale(2);
+    transition: 1s;
+}
+.ex-5-square:active{
+    transform: scale(0.2);
+    transition: 1s;
+}
+/* FINE SOLUZIONE 5 */
+
+
 .ex-6-img,
 .ex-7-img,
 .ex-8-img {
   width: 500px;
 }
+
 
 .ex-9-img {
   margin: 50px 100px;
