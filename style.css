@@ -167,3 +167,37 @@
   width: 60px;
   height: 20px;
 }
+/* MIA SOLUZIONE 12 */
+.ex-12-button:hover .ex-12-top-white{
+    animation: move-top-left 2s linear;
+}
+@keyframes move-top-left{
+    0%{
+        left: 10%;
+    }
+    50%{
+        left: 60%;
+    }
+    100%{
+        left: 10%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: move-top-right 2s linear;
+}
+@keyframes move-top-right{
+    100%{
+        right: 20%;
+    }
+    50%{
+        right: 60%;
+    }
+    0%{
+        right: 20%;
+    }
+}
+/* FINE SOLUZIONE 12 */
+
+/* MIA SOLUZIONE 13 */
+
+/* FINE SOLUZIONE 13 */
