@@ -102,6 +102,18 @@
 .ex-10-icon {
   font-size: 60px;
 }
+/* MIA SOLUZIONE 10*/
+.ex-10-icon{
+    animation: circle-left 1s linear infinite;
+}
+@keyframes circle-left {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+/* FINE SOLUZIONE 10*/
+
+
 .ex-11-icon {
   font-size: 60px;
 }
