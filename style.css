@@ -73,6 +73,11 @@
 .ex-8-img {
   width: 500px;
 }
+/* MIA SOLUZIONE 6*/
+.ex-6-img:hover{
+    filter: grayscale(100%);
+  }
+/* FINE SOLUZIONE 6*/
 
 
 .ex-9-img {
