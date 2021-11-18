@@ -3,8 +3,7 @@
   height: 100px;
   border: 1px solid red;
 }
-
-/* mia soluzione */
+/* MIA SOLUZIONE 1 */
 .ex-1-square:hover {
   background-color: red;
   transition: background-color 2s;
@@ -15,8 +14,7 @@
   height: 100px;
   background: red;
 }
-
-/* mia soluzione */
+/* MIA SOLUZIONE 2 */
 .ex-2-square:active {
   transition: 2s;
   width: 100%;
@@ -27,13 +25,20 @@
   height: 100px;
   background: red;
 }
-
+/* MIA SOLUZIONE 3 */
+.ex-3-square:hover{
+    transition:  1s;
+    border-radius: 100%;
+}
 
 .ex-4-square {
   width: 100px;
   height: 100px;
   background: red;
 }
+
+
+
 .ex-5-square {
   margin: 20px;
   width: 60px;
