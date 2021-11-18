@@ -117,6 +117,24 @@
 .ex-11-icon {
   font-size: 60px;
 }
+/* MIA SOLUZIONE 11*/
+.ex-11-icon:hover{
+    animation: circle-right 2s linear;
+}
+@keyframes circle-right {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(300deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+/* FINE SOLUZIONE 11*/
+
+
 .ex-12-button,
 .ex-13-button {
   position: relative;
