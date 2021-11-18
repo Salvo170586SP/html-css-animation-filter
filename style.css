@@ -10,7 +10,6 @@
 }
 /* FINE SOLUZIONE 1 */
 
-
 .ex-2-square {
   width: 100px;
   height: 100px;
@@ -23,17 +22,15 @@
 }
 /* FINE SOLUZIONE 2 */
 
-
-
 .ex-3-square {
   width: 100px;
   height: 100px;
   background: red;
 }
 /* MIA SOLUZIONE 3 */
-.ex-3-square:hover{
-    transition:  1s;
-    border-radius: 100%;
+.ex-3-square:hover {
+  transition: 1s;
+  border-radius: 100%;
 }
 /* FINE SOLUZIONE 3 */
 
@@ -43,12 +40,11 @@
   background: red;
 }
 /* MIA SOLUZIONE 4 */
-.ex-4-square:hover{
-    transition:  1s;
-    opacity: 0;
+.ex-4-square:hover {
+  transition: 1s;
+  opacity: 0;
 }
 /* FINE SOLUZIONE 4 */
-
 
 .ex-5-square {
   margin: 20px;
@@ -57,16 +53,15 @@
   background: red;
 }
 /* MIA SOLUZIONE 5 */
-.ex-5-square:hover{
-    transform: scale(2);
-    transition: 1s;
+.ex-5-square:hover {
+  transform: scale(2);
+  transition: 1s;
 }
-.ex-5-square:active{
-    transform: scale(0.2);
-    transition: 1s;
+.ex-5-square:active {
+  transform: scale(0.2);
+  transition: 1s;
 }
 /* FINE SOLUZIONE 5 */
-
 
 .ex-6-img,
 .ex-7-img,
@@ -74,16 +69,23 @@
   width: 500px;
 }
 /* MIA SOLUZIONE 6*/
-.ex-6-img:hover{
-    filter: grayscale(100%);
-  }
+.ex-6-img:hover {
+  filter: grayscale(100%);
+}
 /* FINE SOLUZIONE 6*/
 /* MIA SOLUZIONE 7*/
-.ex-7-img:hover{
-    transition: 2s;
-    filter: grayscale(100%);
-  }
+.ex-7-img:hover {
+  transition: 2s;
+  filter: grayscale(100%);
+}
 /* FINE SOLUZIONE 7 */
+/* MIA SOLUZIONE 8*/
+.ex-8-img:hover {
+  transition: 2s;
+  border-radius: 30px;
+  filter: grayscale(100%);
+}
+/* FINE SOLUZIONE 8 */
 
 .ex-9-img {
   margin: 50px 100px;
