@@ -91,6 +91,14 @@
   margin: 50px 100px;
   width: 400px;
 }
+/* MIA SOLUZIONE 9*/
+.ex-9-img:hover {
+    transition: 2s;
+    border-radius: 30px;
+    transform: scale(1.5);
+  }
+/* FINE SOLUZIONE 9 */
+
 .ex-10-icon {
   font-size: 60px;
 }
